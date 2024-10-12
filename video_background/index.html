@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Background</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        video{
+            display: block;
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+            object-fit: cover; /* Ya 'fill' ya 'contain' try karein */
+        }
+        
+    </style>
+</head>
+<body>
+    <video src="./code_video.mp4" autoplay muted loop></video>
+</body>
+</html>

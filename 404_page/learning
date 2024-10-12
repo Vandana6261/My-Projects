@@ -1,0 +1,9 @@
+in button we dont uses text-align because button is not for text. we should onlu use text-align on text contain tag.
+we dont use div here because it is a block level element and it takes whole width and when we will give them color it looks bad.
+Use line height when you have a paragraph or multiline content, otherwise use margin to decrease or increase the space between 2 element.
+all animation and complex graphics we see on webpages are not code, some of them are videos.
+
+In buttons, we don't use text-align because buttons are not primarily for text. We should only use text-align on text-containing tags. 
+We don't use div here because it is a block-level element, and it takes the whole width. When we give it color, it looks bad. 
+Use line-height when you have a paragraph or multiline content; otherwise, use margin to decrease or increase the space between two elements. 
+All animations and complex graphics we see on webpages are not code; some of them are videos.
